@@ -1,0 +1,103 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context="com.morij.multiplicationtable.MatchActivity">
+
+    <include layout="@layout/custom_toolbar" />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+
+        <com.morij.multiplicationtable.MyTextView
+            android:id="@+id/tView1"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="5dp"
+            android:layout_marginTop="5dp"
+            android:textSize="45sp" />
+
+        <com.morij.multiplicationtable.MyEditText
+            android:id="@+id/etAnswer"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="5dp"
+            android:layout_weight="1"
+            android:hint="@string/hint"
+            android:inputType="number"
+            android:textSize="45sp">
+
+            <requestFocus />
+        </com.morij.multiplicationtable.MyEditText>
+
+
+    </LinearLayout>
+
+    <com.morij.multiplicationtable.MyButton
+        android:id="@+id/btnNext"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="8dp"
+        android:text="@string/btnNext" />
+
+    <com.morij.multiplicationtable.MyTextView
+        android:id="@+id/tView2"
+        style="@style/matchStyle" />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="horizontal">
+
+        <LinearLayout
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:orientation="vertical">
+
+            <com.morij.multiplicationtable.MyTextView
+                android:id="@+id/tView3"
+                style="@style/matchStyle" />
+
+            <com.morij.multiplicationtable.MyTextView
+                android:id="@+id/tView4"
+                style="@style/matchStyle" />
+
+            <com.morij.multiplicationtable.MyTextView
+                android:id="@+id/tView5"
+                style="@style/matchStyle" />
+
+            <com.morij.multiplicationtable.MyTextView
+                android:id="@+id/tView6"
+                style="@style/matchStyle" />
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:orientation="vertical">
+
+            <com.morij.multiplicationtable.MyTextView
+                style="@style/matchStyle"
+                android:text="@string/point" />
+
+            <com.morij.multiplicationtable.MyTextView
+                style="@style/matchStyle"
+                android:text="@string/time" />
+
+            <com.morij.multiplicationtable.MyTextView
+                style="@style/matchStyle"
+                android:text="@string/total_time" />
+
+        </LinearLayout>
+
+    </LinearLayout>
+
+
+</LinearLayout>

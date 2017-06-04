@@ -1,0 +1,25 @@
+<resources>
+    <string name="app_name">جدول ضرب</string>
+    <string name="learning">آموزش ضرب</string>
+    <string name="practice">تمرین ضرب</string>
+    <string name="match">ضرب زماندار</string>
+    <string name="about">درباره</string>
+    <string name="exit">خروج</string>
+    <string name="hint">پاسخ</string>
+
+    <string name="btnNext">بعدی</string>
+
+    <string name="btneasy">آسان</string>
+    <string name="btnnormal">معمولی</string>
+    <string name="btnhard">سخت</string>
+
+    <string name="myname">مرتضی جمالزهی</string>
+    <string name="email">morteza.jamalzehi@gmail.com</string>
+    <string name="tv_toolbar">آموزش</string>
+    <string name="point">امتیاز</string>
+    <string name="time">زمان</string>
+    <string name="total_time">زمان کلی 2 دقیقه</string>
+    <string name="c_learning">آموزش</string>
+    <string name="description">در قسمت ضرب زمان دار پاسخ صحیح 3 امتیاز مثبت  پاسخ اشتباه و سوال بی پاسخ 1 امتیاز منفی دارد</string>
+
+</resources>
