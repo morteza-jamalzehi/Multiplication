@@ -8,22 +8,23 @@
         android:label="@string/app_name"
         android:theme="@style/AppTheme">
         <activity android:name=".MainActivity">
+
+        </activity>
+        <activity android:name=".PracticeActivity" />
+        <activity
+            android:name=".MatchActivity"
+            android:windowSoftInputMode="stateVisible" />
+        <activity
+            android:name=".HardActivity"
+            android:windowSoftInputMode="stateVisible" />
+        <activity android:name=".AboutActivity" />
+        <activity android:name=".WelcomeActivity">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
 
                 <category android:name="android.intent.category.LAUNCHER" />
             </intent-filter>
         </activity>
-        <activity android:name=".PracticeActivity" />
-        <activity
-            android:name=".MatchActivity"
-            android:windowSoftInputMode="stateVisible" />
-
-        <activity
-            android:name=".HardActivity"
-            android:windowSoftInputMode="stateVisible" />
-
-        <activity android:name=".AboutActivity"></activity>
     </application>
 
 </manifest>
