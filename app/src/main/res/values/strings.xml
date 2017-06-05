@@ -22,4 +22,24 @@
     <string name="c_learning">آموزش</string>
     <string name="description">در قسمت ضرب زمان دار پاسخ صحیح 3 امتیاز مثبت  پاسخ اشتباه و سوال بی پاسخ 1 امتیاز منفی دارد</string>
 
+
+
+    <string name="next">بعدی</string>
+    <string name="skip">بیخیال</string>
+    <string name="start">باشه</string>
+
+    <string name="slide_1_title">سلام</string>
+    <string name="slide_1_desc">این برنامه از سه قسمت تشکیل شده:\n\n آموزش ضرب\n\n تمرین ضرب\n\n ضرب زماندار</string>
+
+    <string name="slide_2_title">آموزش ضرب</string>
+    <string name="slide_2_desc">صفحه اول برنامه است که ضرب اعداد 1 تا 12 را به شما آموزش می دهد که می توانید با مطالعه آن آماده تمرین شوید.</string>
+
+    <string name="slide_3_title">تمرین ضرب</string>
+    <string name="slide_3_desc">با باز کردن منوی کشویی می توانید وارد قسمت تمرین شده و ضرب های خواسته شده را انجام دهید</string>
+
+    <string name="slide_4_title"> ضرب زمان دار</string>
+    <string name="slide_4_desc">این قسمت از دو بخش تشکیل شده اولی آسان و دومی سخت\n\n در ضرب آسان زمان جواب به هر سوال پنج ثانیه و در قسمت سخت ده ثانیه است و زمان کلی جواب دادن 2 دقیقه\n\n برای جواب درست 3 امتیاز می گیرید و برای جواب استباه 1 امتیاز از شما کم می شود و بعد از تمام شدن بازی امتیاز شما مشخص می شود </string>
+
+    <string name="play_again_desc">To see the welcome slider again, goto Settings -> apps -> welcome slider -> clear data</string>
+    <string name="play_again">Play Again</string>
 </resources>
